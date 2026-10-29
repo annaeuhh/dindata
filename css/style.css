@@ -5,8 +5,13 @@
 
 /*___ Generel styling ___*/
 
+/*
+Note:
+- Use REM for fonts, spacing, padding, and margins. 
+- Use PX for borders (1px), box-shadows, and hairlines. 
+*/
+
 body {
-    background-color: #f7f5f2;
     font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -14,4 +19,61 @@ h1, h2, h3 {
     color: #142933;
 }
 
+.btn {
+    color: #142933;
+    text-decoration: none;
+    background-color: #FA9442;
+    padding: 0.8rem 2.5rem;
+    border-radius: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*___ Header ___*/
+
+header {
+    background-color: #340059;
+    padding: 1rem;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
 /*___ Første Del ___*/
+
+.del1 {
+    background-color: #FEEAD9;
+    display: flex;
+}
+
+.tekst1 {
+    width: 47%;
+    padding-top: ;
+}
+
+/*___ CROP BILLEDE ___*/
+.billede {
+    width: 53%;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.subheader {
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: #142933;
+    padding-bottom: 1rem;
+}
+
+.uddyb {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+}
