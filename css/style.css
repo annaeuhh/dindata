@@ -77,3 +77,49 @@ h1 {
     font-weight: 400;
     padding-bottom: 0.5rem;
 }
+
+/*___ Anden Del ___*/
+
+.oversigt {
+    margin: 3rem 6.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.oversigt h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.box1 {
+    width: 30%;
+    gap: 4%;
+}
+
+.box2 {
+    background-color: #FEEAD9;
+    width: 100%;
+    height: 450px;
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.oversigt a {
+    color: #142933;
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.oversigt img {
+    border-radius: 20px;
+}
+
+.oversigt h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
