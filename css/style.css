@@ -123,3 +123,39 @@ h1 {
     font-size: 2.5rem;
     font-weight: 700;
 }
+
+/*___ Tredje Del ___*/
+
+.del3 {
+    background-color: #E5C9F9;
+    padding: 2rem 10rem;
+}
+
+.del3 h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.search {
+    background-color: white;
+    padding: 1rem;
+    width: 1200px;
+    border-radius: 50px;
+
+}
+
+.del3 a {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background-color: #340059;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
