@@ -128,7 +128,7 @@ h1 {
 
 .del3 {
     background-color: #E5C9F9;
-    padding: 2rem 10rem;
+    padding: 2rem 20rem;
 }
 
 .del3 h2 {
@@ -140,7 +140,7 @@ h1 {
 .search {
     background-color: white;
     padding: 1rem;
-    width: 1200px;
+    width: 100%;
     border-radius: 50px;
 
 }
@@ -157,5 +157,81 @@ h1 {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
+/*___ Fjerde Del ___*/
+
+.del4 {
+    display: flex;
+    margin: 2rem 12rem;
+    justify-content: space-around;
+}
+
+.box3 {
+    background-color: #FEEAD9;
+    border-radius: 20px;
+    width:47%;
+    padding: 1rem;
+}
+
+.del4 h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.del4 p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.mail {
+     background-color: white;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 50px;
+}
+
+/*___ Footer ___*/
+
+footer {
+    background-color: #340059;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h4 {
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+footer p {
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+footer a {
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 
 
