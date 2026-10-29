@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*___ Generel styling ___*/
+
+body {
+    background-color: #f7f5f2;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #142933;
+}
+
+/*___ Første Del ___*/
