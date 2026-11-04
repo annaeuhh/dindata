@@ -8,11 +8,12 @@
 /*
 Note:
 - Use REM for fonts, spacing, padding, and margins. 
-- Use PX for borders (1px), box-shadows, and hairlines. 
+- Use PX for borders (1px) and box-shadows. 
 */
 
 body {
     font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #fffefd;
 }
 
 h1, h2, h3, .subheader {
@@ -25,12 +26,13 @@ h1, h2, h3, .subheader {
     background-color: #FA9442;
     color: #142933;
     min-width: 10rem;
+    max-width: 14rem;
     padding: 0.8rem 2.5rem;
     border-radius: 50px;
     text-decoration: none;
     text-align: center;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.05rem;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
@@ -45,13 +47,21 @@ img {
 
 header {
     background-color: #340059;
-    padding: 1rem 10rem;
+    padding: 1rem 4rem;
     text-align: end;
 }
 
 header a {
     color: white;
     text-decoration: none;
+    font-weight: 500;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    transition: all 0.2s ease; /*smooth transition*/
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 /*___ Første Del ___*/
@@ -72,7 +82,7 @@ header a {
 }
 
 .billede img {
-    display: block;
+    display: block; /*Sikrer at der ikke er en lille kant under billedet*/
 }
 
 h1 {
@@ -81,20 +91,21 @@ h1 {
 
 .subheader {
     font-size: 3.6rem;
-    padding-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .uddyb {
     font-size: 1.5rem;
     font-weight: 400;
-    padding-bottom: 0.7rem;
+    margin-bottom: 0.7rem;
 }
 
 .btn-start {
-    display: inline-block;
+    display: block;
+    margin: 2rem auto;
     background-color: #FA9442;
     color: #142933;
-    min-width: 14rem;
+    width: 14rem;
     padding: 0.8rem 2.5rem;
     border-radius: 50px;
     text-decoration: none;
@@ -104,27 +115,34 @@ h1 {
     box-shadow: 
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     2px 2px 4px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.btn-start:hover {
+    transform: scale(1.08);
+    text-decoration: underline;
 }
 
 /*___ Anden Del ___*/
 
 .oversigt {
-    margin-top: 2rem;
-    margin-bottom: 4.5rem;
-    margin-left: 6.5rem;
-    margin-right: 6.5rem;
+    padding-top: 2rem;
+    padding-bottom: 4.5rem;
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
     display: flex;
     justify-content: space-around;
-}
-
-.oversigt h2 {
-    font-size: 2.5rem;
-    padding: 1rem;
 }
 
 .box1 {
     width: 30%;
     gap: 4%;
+}
+
+.box1 h2 {
+    font-size: 2.5rem;
+    padding: 1rem;
 }
 
 .box2 {
@@ -139,7 +157,21 @@ h1 {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.box2 a {
+    color: #142933;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.box2 a:hover {
+    text-decoration: underline;
+}
+
 .box3 {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 350px;
     border-radius: 20px;
@@ -147,40 +179,43 @@ h1 {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.oversigt a:not(.btn) {
-    color: #142933;
-    text-decoration: none;
-    font-size: 1.8rem;
-    font-weight: 600;
-}
-
-.oversigt .btn {
+.box3 h3 {
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
     position: absolute;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
-.oversigt img {
+.box3 img {
     border-radius: 20px;
     width: 100%;
     height: 350px;
     object-fit: cover;
 }
 
-.oversigt h3 {
-    font-size: 2.5rem;
+.box3 a {
     position: absolute;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    bottom: 1rem;
+    transition: all 0.2s ease;
+}
+
+.box3 a:hover {
+    transform: scale(1.08);
+    text-decoration: underline;
 }
 
 /*___ Tredje Del ___*/
 
 .del3 {
     background-color: #E5C9F9;
-    padding: 2rem 20rem;
+    padding: 3rem 20rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .del3 h2 {
     font-size: 3.5rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 .search {
@@ -188,19 +223,31 @@ h1 {
     padding: 1rem 2rem;
     width: 100%;
     border-radius: 50px;
+    margin-bottom: 1rem;
 }
 
+
+
 .del3 a {
-    display: inline-block;
-    width: 200px;
-    height: 40px;
+    display: flex;
+    margin: 0.5rem auto;
+    align-items: center; /*Vertical center*/
+    justify-content: center; /*Horizontal center*/
+    width: 12rem;
+    height: 2.2rem;
     background-color: #340059;
     color: white;
     text-decoration: none;
     border-radius: 50px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.del3 a:hover {
+    text-decoration: underline;
+    transform: scale(1.08);
 }
 
 /*___ Fjerde Del ___*/
@@ -231,9 +278,20 @@ h1 {
     line-height: 1.5;
 }
 
+.box4 a {
+    display: block;
+    margin: 0.5rem auto;
+    transition: all 0.2s ease; 
+}
+
+.box4 a:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
 .mail {
     background-color: white;
-    padding: 1rem;
+    padding: 1rem 2rem;
     width: 100%;
     border-radius: 50px;
 }
@@ -260,6 +318,11 @@ footer p {
 footer a {
     color: white;
     padding-bottom: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+footer a:hover {
+    color: #FA9442;
 }
 
 .left {
