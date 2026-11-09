@@ -248,6 +248,18 @@ footer a:hover {
     padding-left: 5px;
 }
 
-@media screen and (mix-width: 768px) {
-    
+@media screen and (max-width: 768px) {
+
+.sti a {
+    text-decoration: underline;
+}
+.del1 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+footer {
+    padding: 2rem 1rem;
+}
+
 }

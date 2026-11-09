@@ -396,8 +396,66 @@ footer a:hover {
 
 /*___ Tablet ___*/
 
-@media screen and (mix-width: 768px) {
+@media screen and (max-width: 768px) {
+
+.oversigt {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.box3 h3 {
+    font-size: 2rem;
+}
+
+.box1 {
+    width: 47%;
+    gap: 4%;
+}
+
+.box1 h2 {
+    font-size: 2.2rem;
+    padding: 1rem;
+}
+
+.box2 a {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/*___ Del 3 ___*/
     
+    .del3 {
+        padding: 3rem 3rem;
+    }
+
+    .del3 a {
+        width: 10rem;
+    }
+
+/*___ Del 4 ___*/
+
+    .del4 {
+    margin: 3rem;
+    }
+
+    .del4 h3 {
+    font-size: 2rem;
+    }
+
+/*Footer*/
+
+    footer {
+    padding: 2rem 1rem;
+    }
+
 }
 
 
