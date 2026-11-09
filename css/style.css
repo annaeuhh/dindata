@@ -394,6 +394,12 @@ footer a:hover {
     padding-left: 5px;
 }
 
+/*___ Tablet ___*/
+
+@media screen and (mix-width: 768px) {
+    
+}
+
 
 
 

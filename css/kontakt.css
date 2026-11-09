@@ -10,34 +10,6 @@ body {
     background-color: #fffefd;
 }
 
-h1, h2, h3, .subheader{
-    color: #142933;
-    font-weight: 700;
-}
-
-.btn {
-    display: inline-block;
-    background-color: #FA9442;
-    color: #142933;
-    min-width: 10rem;
-    max-width: 14rem;
-    padding: 0.8rem 2.5rem;
-    border-radius: 50px;
-    text-decoration: none;
-    text-align: center;
-    font-weight: 600;
-    font-size: 1.05rem;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    box-shadow: 
-    inset 2px 2px 4px rgba(255, 255, 255, 0.3),
-    2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-img {
-    max-width: 100%;
-}
-
-
 /*___ Header ___*/
 
 header {
@@ -109,7 +81,10 @@ header a:hover {
 
 .del1 {
     display: flex;
-    margin: 3rem 12rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     justify-content: space-around;
 }
 
@@ -121,22 +96,53 @@ header a:hover {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.del1 h1 {
+h1, h2 {
+    color: #142933;
+    font-weight: 700;
+}
+
+h1 {
     font-size: 2.5rem;
     padding-bottom: 1rem;
 }
 
-.del1 p {
+h2 {
+    font-size: 1.6rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+p:not(.note) {
     font-size: 1rem;
     font-weight: 400;
     padding-bottom: 1rem;
     line-height: 1.5;
 }
 
+.note {
+    font-size: 0.9rem;
+    color: #142933;
+    text-align: center;
+}
+
 .box1 a {
     display: block;
-    margin: 0.5rem auto;
-    transition: all 0.2s ease; 
+    background-color: #340059;
+    color: white;
+    min-width: 10rem;
+    max-width: 15rem;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.05rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 
+    inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+    2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0.8rem auto;
+    transition: all 0.2s ease;
 }
 
 .box1 a:hover {
@@ -144,11 +150,44 @@ header a:hover {
     transform: scale(1.05);
 }
 
-.mail {
-    background-color: white;
-    padding: 1rem 2rem;
+/*___ Formular ___*/
+
+input[type=email], select, textarea {
     width: 100%;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1rem;
+}
+
+textarea {
+   /*HVORDAN LAVER JEG DET STØRRE???*/ 
+}
+
+input[type=submit] {
+    display: block;
+    background-color: #FA9442;
+    color: #142933;
+    min-width: 10rem;
+    max-width: 14rem;
+    padding: 0.5rem 2rem;
     border-radius: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.05rem;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 
+    inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+    2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0.5rem auto;
+    transition: all 0.2s ease;
+}
+
+input[type=submit]:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
 }
 
 /*___ Footer ___*/
@@ -207,4 +246,8 @@ footer a:hover {
 .right a {
     padding-top: 5px;
     padding-left: 5px;
+}
+
+@media screen and (mix-width: 768px) {
+    
 }

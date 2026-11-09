@@ -48,35 +48,64 @@
                 <h1>
                     Kontakt os
                 </h1>
-                <div>
-                    <p>
-                        Vi har oprettet Din Data, fordi vi mener, at digital sikkerhed er for alle. Vores personlige data skal beskyttes, så den ikke ender i hænderne på de forkerte, og derfor har vi gjort det til vores mission at gøre viden om digital sikkerhed let tilgængeligt for alle uanset alder og udgangspunkt.
-                    </p>
-                    <p>
-                        Hvis du vil vide mere om, hvem der står bag Din Data, og hvordan vi arbejder, så tryk på knappen.
-                    </p>
-                    <a href="#" class="btn">Læs mere</a>
-                </div>
+                <p>
+                    Har du et spørgsmål eller brug for hjælp til noget her på siden, er du velkommen til at kontakte os ved at udfylde formularen til højre. 
+                </p>
+                <p>
+                    Vi beder dig angive dit IT-niveau, for at vi kan hjælpe dig bedst muligt i vores besvarelse.
+                </p>
+                <p>
+                    Ved 'Almen bruger' skal forstås, at man er vant til at bruge internettet uden besvær, og i store træk bruger det dagligt til mails, informationssøgning, online shopping og meget mere.
+                </p>
+                <h2>
+                    Brug for IT-hjælp generelt?
+                </h2>
+                <p>
+                    Hvis du har brug for hjælp til brug af din computer, ekstra støtte til at ændre kodeord, eller andet der kræver personlig tilstedeværelse, kan vi desværre ikke hjælpe. 
+                </p>
+                <p>
+                    I stedet henviser vi dig til vores partnere Hjælperne, som altid står klar til at hjælpe med IT, når det driller.
+                </p>
+                <a href="https://hjaelperne.dk/it-hjaelp-til-aeldre">Gå til Hjaelperne.dk</a>
+                <p class="note">
+                    Når du trykker på knappen, åbnes hjemmesiden i en ny fane.
+                </p>
+                
             </div>
             <div class="box1">
                 <h1>
                     Send en mail
                 </h1>
-                <div>
-                    <p>
-                        Tilmeld dig vores nyhedsbrev og modtag de seneste nyheder om privatlivsindstillinger, kunstig intelligens, anbefalede programmer og mere i en spiselig udgave direkte i din indbakke.
-                    </p>
-                    <p>
-                        Som et magasin sendt direkte til din hoveddør hver anden måned.
-                    </p>
+                <form>
+                    <label for="mail">E-mail</label>
+                    <input id="mail" type="email" required>
 
-                    <!-- mail felt -->
+                    <!-- dropdown -->
 
-                    <div class="mail">
-                        Skriv din mail her
-                    </div>
-                    <a href="#" class="btn">Tilmeld</a>
-                </div>
+                     <label for="henvend">Hvad drejer din henvendelse sig om?</label>
+                     <select id="henvend" required>
+                        <option value="0" selected>Vælg emne</option>
+                        <option value="1">Der er et emne, jeg ikke kan finde information om</option>
+                        <option value="2">Jeg har spørgsmål til undervisningsmaterialet</option>
+                        <option value="3">Jeg har brug for hjælp til at tilgå siden</option>
+                        <option value="4">Øvrige henvendelser</option>
+                     </select>
+
+                     <label for="niveau">Hvad er din erfaring med IT?</label>
+                     <select id="niveau" required>
+                        <option value="0" selected>Angiv niveau</option>
+                        <option value="1">Begynder</option>
+                        <option value="2">Let øvet</option>
+                        <option value="3">Øvet</option>
+                        <option value="4">Almen bruger</option>
+                        <option value="5">Superbruger</option>
+                     </select>
+
+                     <label for="besked">Besked</label>
+                     <textarea id="besked" required></textarea>
+
+                     <input type="submit" name="submit" value="Send mail">
+                </form>
             </div>
         </section>
 
