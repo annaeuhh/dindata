@@ -57,6 +57,11 @@ nav {
     align-items: center;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
 .logo {
     width: auto;
     height: 40px;
@@ -289,7 +294,7 @@ h1 {
 
 .del4 {
     display: flex;
-    margin: 2rem 12rem;
+    margin: 3rem 12rem;
     justify-content: space-around;
 }
 
@@ -307,7 +312,7 @@ h1 {
 }
 
 .del4 p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
     padding-bottom: 1rem;
     line-height: 1.5;
@@ -373,6 +378,20 @@ footer a:hover {
 .right {
     display: flex;
     flex-direction: column;
+}
+
+.right div {
+    display: flex;
+}
+
+.right img {
+    height: 30px;
+    width: auto;
+}
+
+.right a {
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 

@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*___ Generel styling ___*/
+
+body {
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #fffefd;
+}
+
+h1, h2, h3, .subheader{
+    color: #142933;
+    font-weight: 700;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FA9442;
+    color: #142933;
+    min-width: 10rem;
+    max-width: 14rem;
+    padding: 0.8rem 2.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.05rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 
+    inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+    2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*___ Header ___*/
+
+header {
+    background-color: #340059;
+    padding: 1rem 2rem;
+    text-align: end;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.logo {
+    width: auto;
+    height: 40px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    transition: all 0.2s ease; /*smooth transition*/
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.lup {
+    width: 24px;
+    height: 24px;
+}
+
+/*___ Brødkrummesti ___*/
+
+.sti {
+    margin: 1rem 4rem;
+    display: flex;
+}
+
+.sti a {
+    margin-right: 5px;
+    font-size: 1rem;
+    color: #142933;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.sti a:hover {
+    text-decoration: underline;
+}
+
+.sti p {
+    margin-right: 5px;
+    font-size: 1rem;
+    color: #142933;
+}
+
+/*___ Artikel ___*/
+
+article {
+    max-width: 700px;
+    margin: 0 auto; /*Centers the article because left and right margin is set to auto*/
+    padding: 2rem;
+    background-color: #FEEAD9;
+}
+
+article div {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+article p:not(.svg-text) {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.svg {
+    height: 35px;
+    height: 35px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.svg-text {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+}
+
+.arrow {
+    height: 35px;
+    height: 35px;
+}
+
+.read {
+    color: #340059;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.read:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/*___ Footer ___*/
+
+footer {
+    background-color: #340059;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h4 {
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+footer p {
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+footer a {
+    color: white;
+    padding-bottom: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+footer a:hover {
+    color: #FA9442;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right div {
+    display: flex;
+}
+
+.right img {
+    height: 30px;
+    width: auto;
+}
+
+.right a {
+    padding-top: 5px;
+    padding-left: 5px;
+}
