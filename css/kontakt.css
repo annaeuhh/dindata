@@ -52,6 +52,10 @@ header a:hover {
     height: 24px;
 }
 
+#bars {
+    display: none;
+}
+
 /*___ Brødkrummesti ___*/
 
 .sti {
@@ -254,34 +258,68 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
 
-.sti a {
-    text-decoration: underline;
-}
+/*___ Header ___*/
 
-.del1 {
+    nav .show {
+        background-color: #340059;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        position: absolute;
+        left: 0;
+        padding: 0.5rem;
+        width: 100%;
+        z-index: 1;
+    }
+
+    nav #bars {
+        display: block;
+        border: none;
+        background-color: transparent;
+        color: white                    ;
+        font-size: 1.8rem;  
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    header {
+    padding: 1rem 1rem 1rem 0;
+    }
+
+    ul li {
+        margin-top: 0.5rem;
+    }
+
+    .sti a {
+    text-decoration: underline;
+    }
+
+    .del1 {
     margin-left: 4rem;
     margin-right: 4rem;
     display: flex;
     flex-direction: column-reverse;
-}
+    }
 
-.box1 {
+    .box1 {
     width: 100%;
     margin-bottom: 2rem;
     padding: 2rem;
-}
+    }
 
-h1 {
+    h1 {
     font-size: 2.2rem;
-}
+    }
 
-h2 {
+    h2 {
     font-size: 1.4;
-}
+    }
 
-footer {
+    footer {
     padding: 2rem 1rem;
-}
+    }
 
 }
 

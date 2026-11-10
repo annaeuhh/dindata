@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/starther.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script> <!-- Javescript -->
+    <script src="https://kit.fontawesome.com/9a5e1442fd.js" crossorigin="anonymous"></script> <!-- Fontawesome-->
 </head>
 <body>
     <header>
@@ -17,7 +19,20 @@
                 </a>
             </div>
             <div>
-                 <ul>
+                  
+                <!-- menu bars for mobile -->
+                
+                <button
+                        id="bars"
+                        aria-expanded="false"
+                        aria-controls="menu"
+                        aria-label="Åben menu"
+                        >
+                        
+                        <i class="fa-solid fa-bars"></i> <!-- fontawesome ikon -->
+                </button>
+
+                 <ul id="menu">
                     <li><a href="starther.html">Viden og rådgivning</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Til skolerne</a></li>
