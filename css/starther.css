@@ -10,33 +10,14 @@ body {
     background-color: #fffefd;
 }
 
-h1, h2, h3, .subheader{
+h1, h2, h3 {
     color: #142933;
     font-weight: 700;
-}
-
-.btn {
-    display: inline-block;
-    background-color: #FA9442;
-    color: #142933;
-    min-width: 10rem;
-    max-width: 14rem;
-    padding: 0.8rem 2.5rem;
-    border-radius: 50px;
-    text-decoration: none;
-    text-align: center;
-    font-weight: 600;
-    font-size: 1.05rem;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    box-shadow: 
-    inset 2px 2px 4px rgba(255, 255, 255, 0.3),
-    2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 img {
     max-width: 100%;
 }
-
 
 /*___ Header ___*/
 
@@ -243,7 +224,16 @@ footer a:hover {
     padding-left: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1211px) {
+    
+    header a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 821px) {
 
 /*___ Header ___*/
 
@@ -290,7 +280,7 @@ footer a:hover {
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
 
 .sti {
     margin-left: 1rem;
@@ -312,7 +302,7 @@ footer a:hover {
 
 .article {
     width: 100%;
-    padding: 1rem; /*Virker ikke???*/
+    padding: 1rem;
 }
 
 iframe {

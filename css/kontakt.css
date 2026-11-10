@@ -77,7 +77,7 @@ header a:hover {
 
 .sti p {
     margin-right: 5px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #142933;
 }
 
@@ -256,7 +256,21 @@ footer a:hover {
     padding-left: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1211px) {
+    
+    header a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    }
+
+    .del1 {
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+    }
+
+}
+
+@media screen and (max-width: 821px) {
 
 /*___ Header ___*/
 
@@ -323,7 +337,7 @@ footer a:hover {
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
 
 .sti {
     margin-left: 1rem;
