@@ -189,17 +189,20 @@ footer {
 footer h4 {
     color: white;
     padding-bottom: 0.5rem;
+    font-size: 1.1rem;
 }
 
 footer p {
     color: white;
     padding-bottom: 0.5rem;
+    font-size: 1rem;
 }
 
 footer a {
     color: white;
     padding-bottom: 0.5rem;
     transition: all 0.2s ease;
+    font-size: 1rem;
 }
 
 footer a:hover {
@@ -209,6 +212,7 @@ footer a:hover {
 .left {
     display: flex;
     flex-direction: column;
+    font-style: normal;
 }
 
 .center {
@@ -243,6 +247,69 @@ footer a:hover {
 
 footer {
     padding: 2rem 1rem;
+}
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+.sti {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sti a {
+    text-decoration: underline;
+    font-size: 0.8rem;
+    padding-bottom: 0.2rem;
+}
+
+.sti p {
+    font-size: 0.8rem;
+}
+
+.article {
+    width: 100%;
+    padding: 1rem; /*Virker ikke???*/
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.svg-text {
+    padding-right: 0.5rem;
+}
+
+footer {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+footer h4 {
+    font-size: 1rem;
+}
+
+footer p, footer a, .left p {
+    font-size: 0.9rem;
+}
+
+.center {
+    margin-top: 1rem;
+}
+
+.left {
+    margin-top: 1rem;
 }
 
 }

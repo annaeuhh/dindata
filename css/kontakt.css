@@ -202,17 +202,20 @@ footer {
 footer h4 {
     color: white;
     padding-bottom: 0.5rem;
+    font-size: 1.1rem;
 }
 
 footer p {
     color: white;
     padding-bottom: 0.5rem;
+    font-size: 1rem;
 }
 
 footer a {
     color: white;
     padding-bottom: 0.5rem;
     transition: all 0.2s ease;
+    font-size: 1rem;
 }
 
 footer a:hover {
@@ -222,6 +225,7 @@ footer a:hover {
 .left {
     display: flex;
     flex-direction: column;
+    font-style: normal;
 }
 
 .center {
@@ -253,9 +257,26 @@ footer a:hover {
 .sti a {
     text-decoration: underline;
 }
+
 .del1 {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box1 {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.4;
 }
 
 footer {
@@ -263,3 +284,68 @@ footer {
 }
 
 }
+
+@media screen and (max-width: 425px) {
+
+.sti {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.sti a {
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+
+.sti p {
+    font-size: 0.8rem;
+}
+
+.del1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box1 {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.4;
+}
+
+footer {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+footer h4 {
+    font-size: 1rem;
+}
+
+footer p, footer a, .left p {
+    font-size: 0.9rem;
+}
+
+.center {
+    margin-top: 1rem;
+}
+
+.left {
+    margin-top: 1rem;
+}
+
+}
+
