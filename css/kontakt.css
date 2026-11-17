@@ -116,7 +116,7 @@ h2 {
     padding-bottom: 0.8rem;
 }
 
-p:not(.note) {
+.box1 p:not(.note) {
     font-size: 1rem;
     font-weight: 400;
     padding-bottom: 1rem;
@@ -165,8 +165,23 @@ input[type=email], select, textarea {
     font-size: 1rem;
 }
 
+/* drop-down menu should wrap... */
+
+select {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+select option {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
 textarea {
-   /*HVORDAN LAVER JEG DET STØRRE???*/ 
+   min-height: 200px; 
 }
 
 input[type=submit] {
