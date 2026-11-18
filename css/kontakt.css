@@ -96,6 +96,7 @@ header a:hover {
     background-color: #FEEAD9;
     border-radius: 20px;
     width:47%;
+    max-width: 750px;
     padding: 1.5rem;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
