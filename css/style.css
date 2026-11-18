@@ -553,7 +553,7 @@ footer a:hover {
 
 /*___ Del 3 ___*/
     
-    .del3 {
+    .kasse3 {
         padding: 3rem 3rem;
     }
 
@@ -583,7 +583,14 @@ footer a:hover {
 
 @media screen and (max-width: 426px) {
 
-    /*Del 2*/
+/*Del 1*/
+    
+    .kasse1 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+/*Del 2*/
 
     .oversigt {
         padding-top: 0;
@@ -611,7 +618,7 @@ footer a:hover {
 
 /*Del 3*/
 
-    .del3 {
+    .kasse3 {
         padding: 2rem 1rem;
     }
 
