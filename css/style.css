@@ -5,12 +5,6 @@
 
 /*___ Generel styling ___*/
 
-/*
-Note:
-- Use REM for fonts, spacing, padding, and margins. 
-- Use PX for borders (1px) and box-shadows. 
-*/
-
 body {
     font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     background-color: #fffefd;
@@ -100,8 +94,6 @@ header a:hover {
     width: 50%;
     padding: 4rem;
 }
-
-/*Lav eventuelt box omkring teskt og pil og lav display flex*/
 
 .billede {
     width: 50%;
@@ -411,7 +403,7 @@ footer a:hover {
     margin-right: 1rem;
     }
 
-    /* Del 1 */
+/* Del 1 */
 
     .kasse1 {
         padding-top: 2.5rem;
@@ -436,7 +428,7 @@ footer a:hover {
         margin: 1.8rem auto;
     }
 
-    /* Del 2 */
+/* Del 2 */
 
     .oversigt {
     padding-left: 2rem;
@@ -447,7 +439,8 @@ footer a:hover {
     font-size: 1.6rem;
     }
 
-    /* Del 3 */
+/* Del 3 */
+
     .del3 {
         padding: 3rem 8rem;
     }
@@ -456,7 +449,7 @@ footer a:hover {
         width: 12rem;
     }
 
-    /* Del 4 */
+/* Del 4 */
 
     .del4 {
     margin: 3rem 6rem;
@@ -515,35 +508,34 @@ footer a:hover {
 
 /*___ Del 2 ___*/
 
-.oversigt {
-    display: flex;
-    flex-wrap: wrap;
-}
+    .oversigt {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-.links img {
-    width: 2.5rem;
-    height: 2.5rem;
-}
+    .links img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
 
-.box3 h3 {
-    font-size: 2rem;
-}
+    .box3 h3 {
+        font-size: 2rem;
+    }
 
-.box1 {
-    width: 47%;
-    gap: 4%;
-}
+    .box1 {
+        width: 47%;
+        gap: 4%;
+    }
 
-.box1 h2 {
-    font-size: 2.2rem;
-    padding: 1rem;
-}
+    .box1 h2 {
+        font-size: 2.2rem;
+        padding: 1rem;
+    }
 
-.box2 a {
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
+    .box2 a {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
 
 /*___ Del 3 ___*/
     
@@ -573,8 +565,9 @@ footer a:hover {
 
 }
 
-@media screen and (max-width: 426px) {
+/*___ Telefon ___*/
 
+@media screen and (max-width: 426px) {
 
     /*Del 2*/
 
@@ -586,25 +579,25 @@ footer a:hover {
     }
 
     .box1 {
-    width: 100%;
-}
+        width: 100%;
+    }
 
-.box1 h2 {
-    font-size: 2rem;
-}
+    .box1 h2 {
+        font-size: 2rem;
+    }
 
-.box2 {
-    padding: 1rem;
-    height: auto; /*Højden er ikke længere låst*/
-}
+    .box2 {
+        padding: 1rem;
+        height: auto; /*Højden er ikke længere låst*/
+    }
 
-.links {
-    padding: 0.5rem 0; /*Da højden ikke er låst, er der brug for mellemrum mellem linksene*/
-}
+    .links {
+        padding: 0.5rem 0; /*Da højden ikke er låst, er der brug for mellemrum mellem linksene*/
+    }
 
 /*Del 3*/
 
- .del3 {
+    .del3 {
         padding: 2rem 1rem;
     }
 
@@ -616,12 +609,12 @@ footer a:hover {
         font-size: 3rem;
     }
 
-    /*Del 4*/
+/*Del 4*/
 
     .del4 {
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
     }
 
     .box4 {
@@ -633,30 +626,29 @@ footer a:hover {
     font-size: 1.8rem;
     }
 
+/*Footer*/
 
-    /*Footer*/
+    footer {
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
-footer {
-    padding: 2rem 1rem;
-    display: flex;
-    flex-direction: column-reverse;
-}
+    footer h4 {
+        font-size: 1rem;
+    }
 
-footer h4 {
-    font-size: 1rem;
-}
+    footer p, footer a, .left p {
+        font-size: 0.9rem;
+    }
 
-footer p, footer a, .left p {
-    font-size: 0.9rem;
-}
+    .center {
+        margin-top: 1rem;
+    }
 
-.center {
-    margin-top: 1rem;
-}
-
-.left {
-    margin-top: 1rem;
-}
+    .left {
+        margin-top: 1rem;
+    }
 
 }
 

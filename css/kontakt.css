@@ -354,65 +354,65 @@ footer a:hover {
 
 @media screen and (max-width: 426px) {
 
-.sti {
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 0;
-}
+    .sti {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
 
-.sti a {
-    text-decoration: underline;
-    font-size: 0.8rem;
-}
+    .sti a {
+        text-decoration: underline;
+        font-size: 0.8rem;
+    }
 
-.sti p {
-    font-size: 0.8rem;
-}
+    .sti p {
+        font-size: 0.8rem;
+    }
 
-.del1 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    display: flex;
-    flex-direction: column-reverse;
-}
+    .del1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
-.box1 {
-    width: 100%;
-    margin-bottom: 2rem;
-    padding: 1rem;
-}
+    .box1 {
+        width: 100%;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
 
-h1 {
-    font-size: 2.2rem;
-}
+    h1 {
+        font-size: 2.2rem;
+    }
 
-h2 {
-    font-size: 1.4;
-}
+    h2 {
+        font-size: 1.4;
+    }
 
-footer {
-    padding: 2rem 1rem;
-    display: flex;
-    flex-direction: column-reverse;
-}
+    footer {
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
-footer h4 {
-    font-size: 1rem;
-}
+    footer h4 {
+        font-size: 1rem;
+    }
 
-footer p, footer a, .left p {
-    font-size: 0.9rem;
-}
+    footer p, footer a, .left p {
+        font-size: 0.9rem;
+    }
 
-.center {
-    margin-top: 1rem;
-}
+    .center {
+        margin-top: 1rem;
+    }
 
-.left {
-    margin-top: 1rem;
-}
+    .left {
+        margin-top: 1rem;
+    }
 
 }
 
