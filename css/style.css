@@ -95,6 +95,12 @@ header a:hover {
     padding: 4rem;
 }
 
+@media screen and (min-width: 1921px) {
+    .kasse1 {
+        padding: 10rem;
+    }
+}
+
 .billede {
     width: 50%;
     height: auto;
@@ -157,6 +163,7 @@ h1 {
 .box1 {
     width: 30%;
     gap: 4%;
+    max-width: 470px;
 }
 
 .box1 h2 {
@@ -246,9 +253,15 @@ h1 {
 
 .del3 {
     background-color: #E5C9F9;
+    display: flex;
+    justify-content: center;
+}
+
+.kasse3 {
     padding: 3rem 20rem;
     display: flex;
     flex-wrap: wrap;
+    max-width: 1590px;
 }
 
 .del3 h2 {
@@ -298,6 +311,7 @@ h1 {
     background-color: #FEEAD9;
     border-radius: 20px;
     width:47%;
+    max-width: 600px;
     padding: 1.5rem;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -441,7 +455,7 @@ footer a:hover {
 
 /* Del 3 */
 
-    .del3 {
+    .kasse3 {
         padding: 3rem 8rem;
     }
 
@@ -539,7 +553,7 @@ footer a:hover {
 
 /*___ Del 3 ___*/
     
-    .del3 {
+    .kasse3 {
         padding: 3rem 3rem;
     }
 
@@ -569,7 +583,14 @@ footer a:hover {
 
 @media screen and (max-width: 426px) {
 
-    /*Del 2*/
+/*Del 1*/
+    
+    .kasse1 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+/*Del 2*/
 
     .oversigt {
         padding-top: 0;
@@ -597,7 +618,7 @@ footer a:hover {
 
 /*Del 3*/
 
-    .del3 {
+    .kasse3 {
         padding: 2rem 1rem;
     }
 
